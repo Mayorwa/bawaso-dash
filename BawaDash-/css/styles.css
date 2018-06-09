@@ -1,0 +1,501 @@
+
+body {
+    font-family: "RaleWay", sans-serif;
+    background-color: #f7f7f7;
+    text-align: left;
+    font-size: 14px;
+}
+p{
+    margin: 0;
+}
+h1{
+    color: #9e9999;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    float: left;
+    font-weight: 300;
+    font-size: 34px;
+}
+h1 a{
+    font-size: 13px;
+    font-weight: 300;
+}
+.fhsco-with-scroll{
+    overflow-y: scroll;
+}
+.fhsco-myheader{
+    display: flex;
+}
+.fhsco-myheader i{
+    width: 20px;
+    float: right;
+    padding-top: 20px;
+    text-align: right; 
+    right: 0;
+    margin-left: auto;
+}
+.sidenav {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+    margin: 0 auto;
+    box-shadow : 0 1px 16px 0 rgba(0, 0, 0, 0.15);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    visibility: hidden;
+}
+.navbar-toggle{
+    right:12px;
+    top:0;
+    font-size:30px;
+    cursor:pointer;
+    display: none;
+}
+#main {
+    transition:all .3s;
+    padding: 16px;
+    margin-left: 230px;
+    padding-right: 0px;
+}
+.fhsco-logo-div{
+    width:122px;
+    margin: 0 auto;
+}
+.fhsco-logo{
+    width: 120px;
+}
+.fhsco-profile-details{
+    width: 100%;
+    text-align: center;
+}
+.fhsco-imgs-div{
+    width: 102px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fhsco-name{
+    font-size: 17px;
+    color: #3d3d3d;
+    margin-bottom: 0px;
+}
+.fhsco-talent{
+    margin-top: 0px;
+    font-size: 12px;
+    color: #757575;
+}
+.fhsco-profile-img{
+    width:100px;
+    border-radius: 50%;
+}
+.navbar-list{
+    padding: 0px;
+    margin-top: 20px;
+    list-style-type: none;
+    border-bottom: 1px solid #c4c4c4;
+}
+.navbar-list li{
+    padding: 0px;
+    list-style-type: none;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    color: #818181;
+}
+.navbar-list li a{
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+.navbar-list li span{
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+.navbar-list .active span{
+    color: #3d0155;
+}
+.navbar-list .active{
+    border-left: 5px solid #3d0155;
+}
+.secondspan{
+    right: 0;
+}
+
+.fhsco-logout{
+    margin-top: 60px;
+    margin-left: 10px;
+    left: 15px;
+    font-size: 15px !important;
+    padding: 0px !important;
+    color: #818181 !important;
+}
+.fhsco-card-full1{
+    background-color: #ffffff;
+}
+.fhsco-card-title{
+    padding: 20px;
+    background-color: #520272;
+}
+.fhsco-card-title p{
+    color: #fff;
+    padding: 0px;
+    font-size: 14px;
+}
+.fhsco-card-body{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.fhsco-card-body p{
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;
+    height: 80px;
+}
+.fhsco-card-full2{
+    background-color: #ffffff;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+.fhsco-card-title2{
+    padding: 20px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.fhsco-card-title2 p{
+    color: #000;
+    padding: 0px;
+    font-size: 14px;
+}
+.fhsco-card-title2 p i{
+    color: #3d0155;
+}
+.fhsco-card-body2{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.fhsco-card-body2 p{
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;
+    height: 80px;
+}
+.fhsco-card-full3{
+    background-color: #ffffff;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+.fhsco-card-title3{
+    padding: 20px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.fhsco-card-title3 p{
+    color: #000;
+    padding: 0px;
+    font-size: 14px;
+}
+.fhsco-card-title3 p i{
+    color: #3d0155;
+}
+.fhsco-card-body3{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.fhsco-card-body3 p{
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;
+    height: 80px;
+}
+.fhsco-downcolbig{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    height: 350px;
+}
+.fhsco-downcolbig-title{
+    padding: 10px;
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 15px;
+}
+.fhsco-downcolbig-title p{
+    color: #000;
+    font-size: 15px;
+}
+.fhsco-activities-group{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.fhsco-activities-group .timestamps{
+    color: #c4c4c4;
+    font-size: 14px;
+}
+.fhsco-activities-group .maincontent{
+    color: #000;
+    font-size: 16px;
+}
+.fhsco-downcolsmall{
+    background-color: #520272;
+    padding: 30px;
+    margin-top: 30px;
+    height: 350px;
+}
+.fhsco-downcolsmall-title{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+.fhsco-downcolsmall-title p{
+    color: #fff;
+    font-size:15px;
+    margin-bottom: 10px;
+}
+.fhsco-downcolsmall-body{
+    padding-left: 10px;
+}
+.fhsco-downcolsmall-body ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.fhsco-downcolsmall-body ul li a{
+    color: #fff !important;
+    font-size: 14px;
+    padding: 0px;
+}
+@media(max-width: 992px){
+    .sidenav{
+        width: 0px;
+    }
+    #main{
+        margin-left: 0px;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    .sidenav .closebtn{
+        visibility: visible;
+    }
+}
+@media(min-width: 993px){
+    .sidenav{
+        width: 230px;
+    }
+    #main{
+        margin-left: 230px;
+    }
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/* End of dashboard */
+/* Account */
+.ahsco-form-body{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+}
+.ahsco-profile-update{
+    width: 90px;
+    margin: 0 auto;
+}
+.ahsco-profile-update button{
+    width: 88px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #000;
+    font-size: 14px;
+    box-shadow:  2px 2px 2px 0 rgba(0, 0, 0, 0.192);
+}
+.ahsco-thefull-form{
+    width: 100%;
+    padding-top: 30px;
+}
+.ahsco-thefull-form h2{
+    color: #520272;
+    font-weight: 300;
+    font-size: 24px;
+}
+.ahsco-thefull-form .col-md-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.form-control{
+    border:none;
+    border-bottom: 1px solid #bbbbbb;
+    border-radius:  0px;
+    font-size: 14px;
+}
+.form-control:focus{
+    border-bottom: 1px solid #7605a3;
+}
+.form-control-div{
+    padding-left:0px;
+    padding-right: 20px; 
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 16px;
+    color: #66038d;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.ascho-describe-header{
+    width: 100%;
+}
+.ascho-describe-header hr{
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.ahsco-describe{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h4{
+    color: #520272;
+    font-weight: 300;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+/* End of account page */
+/* Begining Of portfolio page */
+
+.phsco-portfolio-title{
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #520272;
+    display:flex;
+}
+.phsco-portfolio-title p{
+    color: #fff;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.phsco-portfolio-title button{
+    margin-left: auto;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    font-size: 13px;
+    color: #520272;
+    font-weight: 600;
+    padding: 6px 10px 6px 10px;
+}
+.phsco-portfolio-body{
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    height: 490px;
+}
+.phsco-portfolio-img{
+    width: 100%;
+    height: 100px;
+}
+.phsco-body-div{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.phsco-body-div p{
+    padding-top: 10px;
+}
+.phsco-video-div{
+    border-bottom: 1px solid #979696;
+    margin-bottom: 20px;
+}
+.phsco-videoname{
+    font-size: 15px;
+    color: #3d3d3d; 
+}
+.phsco-video-header{
+    display:flex;
+}
+.phsco-video-header i{
+    margin-left: auto;
+    margin-top: 5px;
+}
+.phsco-video-options a{
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+}
+.phsco-video-options a:last-child{
+    color: rgb(202, 10, 10);
+    border-left: 1px solid #000;
+    padding-left: 3px;
+}
+.phsco-modal-img{
+    width: 100%;
+    height: 100%;
+}
+/* End Of Portfolio Page */
+  /* Bookings */
+.table thead{
+   background-color: #520272;
+}
+.table{
+    background-color: #fff;
+}
+.table thead tr th{
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 8px;
+}
+.table tbody tr td{
+    padding: 14px;
+    border-bottom: 1px solid #9e9d9d;
+}
+.bhsco-tables{
+    height: 500px;
+    background-color: #fff;
+}
+.bhsco-table-div{
+    padding: 0px 20px;
+}
+.shsco-chatpart{
+    width: 100%;
+}
+@media(min-width: 993px){
+    .sidenav{
+        width: 230px !important;
+    }
+}

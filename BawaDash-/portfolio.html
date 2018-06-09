@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body> 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="fhsco-logo-div">
+            <img src="imgs/Logo.png" class="fhsco-logo">
+        </div>
+        <div class="fhsco-profile-details">
+            <div class="fhsco-imgs-div">
+                <img class="fhsco-profile-img" src="imgs/avatar-s-1.png">
+            </div>
+            <p class="fhsco-name">Miles Bloggs<span></span></p>
+            <p class="fhsco-talent">Web Developer</p>
+        </div>
+        <ul class="navbar-list">
+                <li><span class="fa fa-tasks"></span> <a href="index.html">Dashboard</a> </li>
+                <li><span class="far fa-user"></span> <a href="account.html">Account Settings </a> </li>
+                <li class="active"><span class="fa fa-image"></span><a href="portfolio.html">Portfolio </a> <span class="fa fa-angle-right secondspan"></span></li>
+                <li><span class="fas fa-wallet"></span><a href="booking.html"> Bookings</a></li>
+                <li><span class="fas fa-wallet"></span><a href="payment.html"> Payments</a></li>
+                <li><span class="fa fa-square"></span><a href="support.html"> Support</a></li>
+        </ul>
+        <a class="fhsco-logout"><span class="fa fa-sign-out-alt"></span> Log Out</a>
+    </div>
+    <div id="main">
+        <div class="navbar-toggle-div">
+            <a class="navbar-toggle" onclick="openNav()">&#9776;</a>
+        </div>
+        <div class="fhsco-main-code">
+            <div class="fhsco-myheader">
+                <h1>Portfolio</h1>
+                <i class="far fa-user"></i>
+            </div>
+            <div class="container">
+                <div class="row phsco-portfolio">
+                    <div class="col-md-8 ">
+                        <div class="phsco-portfolio-title">
+                            <p>Pictures</p>
+                            <button data-toggle="modal" data-target = "#modal-1">ADD NEW</button>
+                            <div class="modal animated bounce" id = "modal-1">
+                                <div class= "modal-dialog">
+                                    <div class= "modal-content">
+                                        <div class= "modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h3 class="modal-title">My Graphics Gallery</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="imgs/topimg1.jpg" class="phsco-modal-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="phsco-portfolio-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>Eggs and Expressions</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>Latter People</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>Ice-Cream Island</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>All It Takes</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>Once Bitten</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>Mixed Fellings</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>Ice-Cream Island</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>All it Takes</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="phsco-body-div">
+                                            <a>
+                                                <img src="imgs/avatar-s-1.png" class="phsco-portfolio-img">
+                                            </a>
+                                            <p>Once Bitten</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="phsco-portfolio-title">
+                            <p>Video Links</p>
+                            <button>ADD NEW</button>
+                        </div>
+                        <div class="phsco-portfolio-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="phsco-video-div">
+                                            <div class="phsco-video-header">
+                                                <p class="phsco-videoname">Masks and Transitions</p>
+                                                <i class="fa fa-angle-right"></i>
+                                            </div>
+                                            <div class="phsco-video-options">
+                                                <a>Edit</a> 
+                                                <a>Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="phsco-video-div">
+                                            <div class="phsco-video-header">
+                                                <p class="phsco-videoname">Documentary</p>
+                                                <i class="fa fa-angle-right"></i>
+                                            </div>
+                                            <div class="phsco-video-options">
+                                                <a>Edit</a> 
+                                                <a>Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="phsco-video-div">
+                                            <div class="phsco-video-header">
+                                                <p class="phsco-videoname">Video Tutorial</p>
+                                                <i class="fa fa-angle-right"></i>
+                                            </div>
+                                            <div class="phsco-video-options">
+                                                <a>Edit</a> 
+                                                <a>Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="phsco-video-div">
+                                            <div class="phsco-video-header">
+                                                <p class="phsco-videoname">Openshot</p>
+                                                <i class="fa fa-angle-right"></i>
+                                            </div>
+                                            <div class="phsco-video-options">
+                                                <a>Edit</a> 
+                                                <a>Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="phsco-video-div">
+                                            <div class="phsco-video-header">
+                                                <p class="phsco-videoname">Animation for Music Video</p>
+                                                <i class="fa fa-angle-right"></i>
+                                            </div>
+                                            <div class="phsco-video-options">
+                                                <a>Edit</a> 
+                                                <a>Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookings</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body> 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="fhsco-logo-div">
+            <img src="imgs/Logo.png" class="fhsco-logo">
+        </div>
+        <div class="fhsco-profile-details">
+            <div class="fhsco-imgs-div">
+                <img class="fhsco-profile-img" src="imgs/avatar-s-1.png">
+            </div>
+            <p class="fhsco-name">Miles Bloggs<span></span></p>
+            <p class="fhsco-talent">Web Developer</p>
+        </div>
+        <ul class="navbar-list">
+                <li><span class="fa fa-tasks"></span> <a href="index.html">Dashboard</a> </li>
+                <li><span class="far fa-user"></span> <a href="account.html">Account Settings </a> </li>
+                <li><span class="fa fa-image"></span><a href="portfolio.html">Portfolio </a> </li>
+                <li><span class="fas fa-wallet"></span><a href="booking.html"> Bookings</a></li>
+                <li class="active"><span class="fas fa-wallet"></span><a href="payment.html"> Payments</a><span class="fa fa-angle-right secondspan"></span></li>
+                <li><span class="fa fa-square"></span><a href="support.html"> Support</a></li>
+        </ul>
+        <a class="fhsco-logout"><span class="fa fa-sign-out-alt"></span> Log Out</a>
+    </div>
+    <div id="main">
+        <div class="navbar-toggle-div">
+            <a class="navbar-toggle" onclick="openNav()">&#9776;</a>
+        </div>
+        <div class="fhsco-main-code">
+            <div class="fhsco-myheader">
+                <h1>Payment History</h1>
+                <i class="far fa-user"></i>
+            </div>
+            <div class="container">
+                <div class="row phsco-portfolio">
+                    <div class="col-md-12 ">
+                        <div class="bhsco-tables">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                    <th>DATE</th>
+                                    <th>BRAND</th>
+                                    <th>REMARK</th>
+                                    <th>AMOUNT</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="bhsco-table-div">
+                                    <div class="bhsco-table-div">
+                                        <tr>
+                                            <td>Monday, 14 May 2018</td>
+                                            <td>Shell Nigeria</td>
+                                            <td>Brand Ambassador for a new Product</td>
+                                            <td>#200,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Monday, 14 May 2018</td>
+                                            <td>Shell Nigeria</td>
+                                            <td>Brand Ambassador for a new Product</td>
+                                            <td>#200,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Monday, 14 May 2018</td>
+                                            <td>Shell Nigeria</td>
+                                            <td>Brand Ambassador for a new Product</td>
+                                            <td>#200,000.00</td>
+                                        </tr>
+                                    </div>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+</html>

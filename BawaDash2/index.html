@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DashBoard</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body> 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="fhsco-logo-div">
+            <img src="imgs/Logo.png" class="fhsco-logo">
+        </div>
+        <div class="fhsco-profile-details">
+            <div class="fhsco-imgs-div">
+                <img class="fhsco-profile-img" src="imgs/avatar-s-1.png">
+            </div>
+            <p class="fhsco-name">Miles Bloggs<span></span></p>
+            <p class="fhsco-talent">Web Developer</p>
+        </div>
+        <ul class="navbar-list">
+            <li  class="active"><span class="fa fa-tasks"></span> <a href="index.html">Dashboard</a> <span class="fa fa-angle-right secondspan"></span></li>
+            <li><span class="far fa-user"></span> <a href="account.html">Account Settings </a> </li>
+            <li><span class="fa fa-image"></span><a href="portfolio.html">Portfolio </a> </li>
+            <li><span class="fas fa-wallet"></span><a href="booking.html"> Bookings</a></li>
+            <li><span class="fas fa-wallet"></span><a href="payment.html"> Payments</a></li>
+            <li><span class="fa fa-square"></span><a href="support.html"> Support</a></li>
+        </ul>
+        <a class="fhsco-logout"><span class="fa fa-sign-out-alt"></span> Log Out</a>
+    </div>
+    <div id="main">
+        <div class="navbar-toggle-div">
+            <a class="navbar-toggle" onclick="openNav()">&#9776;</a>
+        </div>
+        <div class="fhsco-main-code">
+            <div class="fhsco-myheader">
+                <h1>Dashboard</h1>
+                <i class="far fa-user"></i>
+            </div>
+            <div class="container fhsco-boxes">
+                <div class="row">
+                    <!-- <div class="col-md-3 fhsco-card-1">
+                        <div class="fhsco-card-head-active">
+                            <p><i class="far fa-clock"></i> Pending Booking(s)</p>
+                        </div>
+                        <div class="fhsco-card-body">
+                            <p class="fhsco-body-number">09</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 fhsco-card2">
+                            <div class="fhsco-card-head-2">
+                                <p><i class="far fa-clock"></i> Complete Project(s)</p>
+                            </div>
+                            <div class="fhsco-card-body2">
+                                <p class="fhsco-body-number">72</p>
+                            </div>
+                    </div>
+                    <div class="col-md-5 fhsco-card2">
+                        <div class="fhsco-card-head-2">
+                            <p><i class="far fa-clock"></i> Total Payment Recieved</p>
+                        </div>
+                        <div class="fhsco-card-body2">
+                            <p class="fhsco-body-number">#500m</p>
+                        </div>
+                    </div> -->
+                    <div class="col-md-3">
+                        <div class="fhsco-card-full1">
+                            <div class="fhsco-card-title">
+                                <p><i class="far fa-clock"></i> Pending Booking(s)</p>
+                            </div>
+                            <div class="fhsco-card-body">
+                                <p>09</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fhsco-card-full2">
+                            <div class="fhsco-card-title2">
+                                <p><i class="fas fa-clock"></i> Completed Project(s)</p>
+                            </div>
+                            <div class="fhsco-card-body2">
+                                <p>72</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="fhsco-card-full3">
+                            <div class="fhsco-card-title3">
+                                <p><i class="fas fa-clock"></i> Total Payment Recieved</p>
+                            </div>
+                            <div class="fhsco-card-body3">
+                                <p>#500m</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="fhsco-downcolbig">
+                            <div class="fhsco-downcolbig-title">
+                                <p>Recent Activites</p>
+                            </div>
+                            <div class="fhsco-downcolbig-body">
+                                <div class="fhsco-activities-group">
+                                    <p class="timestamps">2 Hours Ago</p>
+                                    <p class="maincontent"> You Have a new booking please check your mail</p>
+                                </div>
+                                <div class="fhsco-activities-group">
+                                    <p class="timestamps">Today at 8:10 AM</p>
+                                    <p class="maincontent">You Have a new Message From the support team</p>
+                                </div>
+                                <div class="fhsco-activities-group">
+                                    <p class="timestamps">April 25th at 9:25 AM</p>
+                                    <p class="maincontent">A payment Has been made to your bank account</p>
+                                </div>
+                                <div class="fhsco-activities-group">
+                                    <p class="timestamps">March 20th at 1:00 PM</p>
+                                    <p class="maincontent">Congratulations! Your Profile is up to date and verified</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="fhsco-downcolsmall">
+                            <div class="fhsco-downcolsmall-title">
+                                <p>Quick Links</p>
+                            </div>
+                            <div class="fhsco-downcolsmall-body">
+                                <ul>
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">HOW IT WORKS </a></li>
+                                    <li><a href="#">FREQUENTLY ASKED QUESTIONS</a></li>
+                                    <li><a href="#">PRIVACY POLICY</a></li>
+                                    <li><a href="#">CONTACT US</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    <script type="text/javascript" src="js/main.js"></script>    
+</body>   
+</html>
